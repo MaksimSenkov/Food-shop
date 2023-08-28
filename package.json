@@ -2,7 +2,7 @@
     "name": "project",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://maksimsenkov.github.io/FoodShop/",
+    "homepage": "https://maksimsenkov.github.io/Food-shop/",
     "dependencies": {
         "@reduxjs/toolkit": "^1.9.5",
         "@testing-library/jest-dom": "^5.16.5",

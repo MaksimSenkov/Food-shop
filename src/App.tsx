@@ -16,7 +16,7 @@ export default function App() {
         <Routes>
             <Route path="/" element={<MainLayout />}>
                 <Route path="" element={<Home />} />
-                <Route path="FoodShop/" element={<Home />} />
+                <Route path="Food-shop/" element={<Home />} />
                 <Route path="basket" element={<Basket />} />
                 <Route path="foods/:id" element={<ItemDesc />} />
                 <Route path="*" element={<NotFound />}></Route>

@@ -26,7 +26,7 @@ export default function Basket() {
     return (
         <main className={styles.main}>
             <div className={styles.headingWrapper}>
-                <img src="FoodShop/img/icons/cartGray.svg" alt="Cart Logo" />
+                <img src="Food-shop/img/icons/cartGray.svg" alt="Cart Logo" />
                 <h2 className={styles.heading}>Корзина</h2>
             </div>
 

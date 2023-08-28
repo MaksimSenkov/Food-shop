@@ -29,7 +29,7 @@ export default function Header() {
         <header className={styles.header}>
             <Link to="/">
                 <div className={styles.logo}>
-                    <img className={styles.logoImg} src="FoodShop/img/logo/Logo.png" alt="" />
+                    <img className={styles.logoImg} src="Food-shop/img/logo/Logo.png" alt="" />
                     <div>
                         <h2 className={styles.label}>Foods</h2>
                         <p>mmm...</p>
@@ -38,7 +38,7 @@ export default function Header() {
             </Link>
 
             <div className={styles.search}>
-                <img className={styles.searchIcon} src="FoodShop/img/icons/searchIcon.svg" alt="search Icon" />
+                <img className={styles.searchIcon} src="Food-shop/img/icons/searchIcon.svg" alt="search Icon" />
                 <input
                     value={localStr}
                     className={styles.searchQuery}
@@ -58,7 +58,7 @@ export default function Header() {
                     </div>
                     <div className={styles.basketDivider}></div>
                     <div className={styles.basketItems}>
-                        <img src="FoodShop/img/icons/cart.svg" alt="cart icon" />
+                        <img src="Food-shop/img/icons/cart.svg" alt="cart icon" />
                         <span>{countItems(cart.items)}</span>
                     </div>
                 </Link>
