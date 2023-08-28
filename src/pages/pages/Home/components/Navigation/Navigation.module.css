@@ -1,0 +1,38 @@
+.navWrapper {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.navItemButton {
+    height: 100%;
+    min-width: 70px;
+    width: 100%;
+
+    padding: 12px 15px;
+
+    border: 1px solid #1a5d1a;
+    border-radius: 20px;
+
+    background-color: transparent;
+
+    /* transition: color ease-in 0.1s, background-color ease-in 0.1s; */
+}
+
+.navItemButton:hover {
+    color: var(--font-white-color);
+    background-color: var(--button-dark-color);
+}
+
+.navItemActive {
+    color: var(--font-white-color);
+    background-color: var(--button-dark-color);
+}

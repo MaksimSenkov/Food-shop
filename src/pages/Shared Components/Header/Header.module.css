@@ -1,0 +1,106 @@
+.header {
+    height: 120px;
+
+    display: grid;
+    grid-template-rows: 1fr;
+
+    grid-template-columns: repeat(2, max-content) 1fr;
+    gap: 50px;
+    align-items: center;
+
+    /* padding: 50px 75px; */
+    margin-bottom: 40px;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+}
+
+.logo > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo p {
+    font-size: 16px;
+    color: var(--font-semi-color);
+}
+
+.logoImg {
+    height: 60px;
+    aspect-ratio: 1/1;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 33px;
+
+    color: var(--font-main-color);
+}
+
+.search {
+    height: 50px;
+    width: 400px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px;
+
+    border-radius: 15px;
+    border: 1px solid var(--font-gray-color);
+}
+.searchIcon {
+    height: 25px;
+}
+.searchQuery {
+    font-size: 16px;
+    width: 100%;
+}
+
+.basket {
+    height: 50px;
+    width: 150px;
+
+    justify-self: flex-end;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 15px;
+
+    border-radius: 30px;
+
+    color: var(--font-white-color);
+    font-weight: bold;
+
+    background-color: var(--button-green-color);
+}
+
+.basketDivider {
+    height: 100%;
+    width: 2px;
+
+    background-color: white;
+    border-radius: 1px;
+}
+
+.basketItems {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+}
+
+@media (max-width: 1400px) {
+    .header {
+        gap: 10px;
+    }
+    .logo > div {
+        display: none;
+    }
+}

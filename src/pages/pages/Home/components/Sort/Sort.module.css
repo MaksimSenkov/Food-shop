@@ -1,0 +1,61 @@
+.sort {
+    position: relative;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-right: 50px;
+}
+
+.sortHeader {
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.sortValue {
+    margin-left: 10px;
+    color: var(--button-green-color);
+
+    text-decoration: underline dashed var(--button-green-color);
+    text-align: center;
+
+    background-color: transparent;
+}
+
+.sortValueListPopUp {
+    position: absolute;
+
+    top: 40px;
+    right: 0;
+
+    width: 140px;
+
+    border-radius: 10px;
+    border: 1px solid var(--border-green-color);
+}
+.sortValueListPopUp li:first-child button {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.sortValueListPopUp li:last-child button {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.listElemButton {
+    width: 100%;
+
+    padding: 10px;
+
+    text-align: left;
+    background-color: var(--button-white-color);
+}
+.listElemButton:hover {
+    color: var(--button-green-color);
+    background-color: var(--button--hover-gray-color);
+}
+.listElemButtonSelected {
+    color: var(--button-green-color);
+    background-color: var(--button--hover-gray-color);
+}

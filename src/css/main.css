@@ -1,0 +1,27 @@
+@import url("./variables.css");
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+
+    padding: 40px 8% 60px;
+
+    background-color: var(--main-bgc-color);
+
+    overflow: auto;
+}
+
+.bodyWrapper {
+    min-height: 100%;
+    width: 100%;
+
+    border-radius: 15px;
+
+    padding: 0px 75px 60px;
+
+    background-color: #fff;
+}

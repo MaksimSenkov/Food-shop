@@ -1,0 +1,92 @@
+.main {
+    height: 100%;
+    /* height: 500px; */
+    width: 827px;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr repeat(2, min-content);
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.headingWrapper {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 60px;
+}
+
+.headingWrapper > img {
+    height: 29px;
+    width: 29px;
+}
+
+.list {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    margin-bottom: 30px;
+}
+
+.listItem {
+    width: 100%;
+}
+
+.totalOutput {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+
+    font-size: 22px;
+}
+
+.totalOutput output {
+    font-weight: bold;
+}
+
+.totalPrice {
+    color: var(--button-green-color);
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goBackButton {
+    width: 200px;
+    padding: 15px;
+
+    border: 1px solid var(--border-green-color);
+    border-radius: 30px;
+
+    color: var(--button-green-color);
+    background-color: transparent;
+}
+
+.goBackButton span {
+    margin-right: 5px;
+}
+
+.completeOrderButton {
+    width: 200px;
+    padding: 15px;
+
+    border-radius: 30px;
+    background-color: var(--button-green-color);
+
+    font-weight: bold;
+    color: var(--font-white-color);
+}

@@ -1,0 +1,22 @@
+:root {
+    --main-bgc-color: #fae392;
+
+    --font-main-color: #000000;
+    --font-semi-color: #7b7b7b;
+    --font-gray-color: #8d8d8d;
+    --font-green-color: #1a5d1a;
+    --font-white-color: #ffffff;
+
+    --border-green-color: #688868;
+    --border-green-color: #1a5d1a;
+
+    --button-green-color: #1a5d1a;
+    --button-white-color: #ffffff;
+    --button-dark-color: #1a5d1a;
+    --button-gray-color: #d7d7d7;
+    --button--hover-gray-color: #fff6f4;
+
+    --card-bgc-color: #f3f3f3;
+    --card-font-color: #000000;
+    --card-option-active-bgc: #ffffff;
+}

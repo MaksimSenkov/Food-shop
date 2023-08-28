@@ -1,0 +1,88 @@
+.article {
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-weight: bold;
+}
+
+.item {
+    height: 100%;
+    min-width: 400px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.heading {
+    margin-bottom: 5px;
+
+    font-size: 22px;
+    font-weight: inherit;
+
+    color: var(--font-main-color);
+}
+
+.description {
+    font-size: 18px;
+    font-weight: normal;
+
+    color: var(--font-gray-color);
+}
+
+.img {
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+.amountWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.changeAmoutButton {
+    height: 32px;
+    width: 32px;
+
+    border: 2px solid var(--border-green-color);
+    border-radius: 50%;
+    background-color: transparent;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--button-green-color);
+}
+
+.amountOutput {
+    min-width: 20px;
+
+    padding: 0 10px;
+
+    text-align: center;
+    font-size: 22px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 70px;
+
+    font-size: 18px;
+}
+
+.removeButton {
+    height: 32px;
+    width: 32px;
+
+    border: 2px solid var(--button-gray-color);
+    border-radius: 50%;
+    background-color: transparent;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--button-gray-color);
+}
